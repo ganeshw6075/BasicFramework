@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="6" parallel="methods" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="6" parallel="methods" name="Test(failed)">
+    <classes>
+      <class name="com.qa.testLayer.HomePageTest">
+        <methods>
+          <include name="VerifytheFunctionalityofDropdown"/>
+          <include name="start"/>
+          <include name="VerifyFunctionalityofSearchButton"/>
+          <include name="tearDown"/>
+          <include name="verifytheFunctionalityofSearchBox"/>
+          <include name="FlowofProductBuyging"/>
+          <include name="VerifyFunctionalityofSportElement"/>
+        </methods>
+      </class> <!-- com.qa.testLayer.HomePageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
